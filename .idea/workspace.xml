@@ -19,7 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa45688f-c938-4561-bd5c-a31c010a7997" name="Default Changelist" comment="Oracle修改" />
+    <list default="true" id="aa45688f-c938-4561-bd5c-a31c010a7997" name="Default Changelist" comment="Oracle修改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobLogReportMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/src/main/resources/mybatis-mapper/XxlJobUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobGroupMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogGlueMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogReportMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobLogReportMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobRegistryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xxl-job-admin/target/classes/mybatis-mapper/XxlJobUserMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatis LogindexNum" value="103" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -96,7 +117,8 @@
       <workItem from="1587695084897" duration="522000" />
       <workItem from="1587720199001" duration="6352000" />
       <workItem from="1587871562585" duration="2884000" />
-      <workItem from="1587881081642" duration="13025000" />
+      <workItem from="1587881081642" duration="14585000" />
+      <workItem from="1587958239774" duration="7479000" />
     </task>
     <task id="LOCAL-00001" summary="Oracle修改">
       <created>1587955180148</created>
@@ -105,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587955180148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Oracle修改">
+      <created>1587956442301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587956442301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,38 +181,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="438" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587955366466" />
-    <state width="958" height="280" key="GridCell.Tab.0.bottom" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.0.bottom" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.0.center" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.0.center" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.0.left" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.0.left" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.0.right" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.0.right" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.1.bottom" timestamp="1587955129960">
+    <state width="947" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.1.bottom" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129960" />
-    <state width="958" height="280" key="GridCell.Tab.1.center" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.1.center" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.1.left" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.1.left" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
-    <state width="958" height="280" key="GridCell.Tab.1.right" timestamp="1587955129959">
+    <state width="947" height="280" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
+    <state width="947" height="280" key="GridCell.Tab.1.right" timestamp="1587970223692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="280" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587955129959" />
+    <state width="947" height="280" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587970223692" />
     <state x="467" y="221" key="RollbackChangesDialog" timestamp="1587889378643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,18 +221,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587880427075" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587956073839">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587956463470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587956073839" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587956463470" />
     <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587871065602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587871065602" />
-    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587954891213">
+    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587969487606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587954891213" />
+    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587969487606" />
     <state x="754" y="417" key="git4idea.ui.GitStashDialog" timestamp="1587956129387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

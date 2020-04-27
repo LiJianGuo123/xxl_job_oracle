@@ -24,7 +24,7 @@
 	<select id="findAll" resultMap="XxlJobGroup">
 		SELECT <include refid="Base_Column_List" />
 		FROM xxl_job_group t
-		ORDER BY t.order ASC
+		ORDER BY t.order_a ASC
 	</select>
 
 	<select id="findByAddressType" parameterType="java.lang.Integer" resultMap="XxlJobGroup">
@@ -39,7 +39,7 @@
 			select S_XXL_JOB_GROUP.nextval from dual
 		</selectKey>
 		INSERT INTO xxl_job_group (id,app_name, title, order_a, address_type, address_list)
-		values ( #{id},#{appName}, #{title}, #{order}, #{addressType}, #{addressList});
+		values ( #{id},#{appName}, #{title}, #{order}, #{addressType}, #{addressList,jdbcType=VARCHAR})
 	</insert>
 
 	<update id="update" parameterType="com.xxl.job.admin.core.model.XxlJobGroup" >

@@ -138,25 +138,25 @@
 			#{jobGroup},
 			#{jobCron},
 			#{jobDesc},
-			#{addTime},
-			#{updateTime},
-			#{author},
-			#{alarmEmail},
-			#{executorRouteStrategy},
-			#{executorHandler},
-			#{executorParam},
-			#{executorBlockStrategy},
+			#{addTime,jdbcType=DATE},
+			#{updateTime,jdbcType=DATE},
+			#{author,jdbcType=VARCHAR},
+			#{alarmEmail,jdbcType=VARCHAR},
+			#{executorRouteStrategy,jdbcType=VARCHAR},
+			#{executorHandler,jdbcType=VARCHAR},
+			#{executorParam,jdbcType=VARCHAR},
+			#{executorBlockStrategy,jdbcType=VARCHAR},
 			#{executorTimeout},
 			#{executorFailRetryCount},
 			#{glueType},
-			#{glueSource},
-			#{glueRemark},
-			#{glueUpdatetime},
-			#{childJobId},
+			#{glueSource,jdbcType=VARCHAR},
+			#{glueRemark,jdbcType=VARCHAR},
+			#{glueUpdatetime,jdbcType=DATE},
+			#{childJobId,jdbcType=VARCHAR},
 			#{triggerStatus},
 			#{triggerLastTime},
 			#{triggerNextTime}
-		);
+		)
 		<!--<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
 			SELECT LAST_INSERT_ID()
 			/*SELECT @@IDENTITY AS id*/

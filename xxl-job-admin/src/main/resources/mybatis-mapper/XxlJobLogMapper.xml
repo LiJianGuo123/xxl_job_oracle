@@ -131,7 +131,7 @@
 			#{id},
 			#{jobGroup},
 			#{jobId},
-			#{triggerTime},
+			#{triggerTime,jdbcType=DATE},
 			#{triggerCode},
 			#{handleCode}
 		);
@@ -143,13 +143,13 @@
 	<update id="updateTriggerInfo" >
 		UPDATE xxl_job_log
 		SET
-			trigger_time= #{triggerTime},
+			trigger_time= #{triggerTime,jdbcType=DATE},
 			trigger_code= #{triggerCode},
-			trigger_msg= #{triggerMsg},
-			executor_address= #{executorAddress},
-			executor_handler=#{executorHandler},
-			executor_param= #{executorParam},
-			executor_sharding_param= #{executorShardingParam},
+			trigger_msg= #{triggerMsg,jdbcType=VARCHAR},
+			executor_address= #{executorAddress,jdbcType=VARCHAR},
+			executor_handler=#{executorHandler,jdbcType=VARCHAR},
+			executor_param= #{executorParam,jdbcType=VARCHAR},
+			executor_sharding_param= #{executorShardingParam,jdbcType=VARCHAR},
 			executor_fail_retry_count= #{executorFailRetryCount}
 		WHERE id= #{id}
 	</update>
@@ -158,8 +158,8 @@
 		UPDATE xxl_job_log
 		SET 
 			handle_time= #{handleTime}, 
-			handle_code= #{handleCode},
-			handle_msg= #{handleMsg} 
+			handle_code= #{handleCode,jdbcType=INTEGER},
+			handle_msg= #{handleMsg,jdbcType=VARCHAR}
 		WHERE id= #{id}
 	</update>
 	

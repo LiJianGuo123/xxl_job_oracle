@@ -31,7 +31,6 @@
 			</if>
 		</trim>
 		ORDER BY username ASC
-		/*LIMIT #{offset}, #{pagesize}*/
 	</select>
 
 	<select id="pageListCount" parameterType="java.util.HashMap" resultType="int">
@@ -68,8 +67,8 @@
 			#{username},
 			#{password},
 			#{role},
-			#{permission}
-		);
+			#{permission,jdbcType=VARCHAR}
+		)
 	</insert>
 
 	<update id="update" parameterType="com.xxl.job.admin.core.model.XxlJobUser" >
@@ -79,7 +78,7 @@
 				password = #{password},
 			</if>
 			role = #{role},
-			permission = #{permission}
+			permission = #{permission,jdbcType=VARCHAR}
 		WHERE id = #{id}
 	</update>
 
